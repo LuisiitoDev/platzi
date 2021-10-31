@@ -11,6 +11,9 @@
 		F35F5CCA272644C000967578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F5CC9272644C000967578 /* ContentView.swift */; };
 		F35F5CCC272644C200967578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F5CCB272644C200967578 /* Assets.xcassets */; };
 		F35F5CCF272644C200967578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F5CCE272644C200967578 /* Preview Assets.xcassets */; };
+		F37D307B272F36000015AE1B /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307A272F36000015AE1B /* TextMod.swift */; };
+		F37D307D272F3B490015AE1B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307C272F3B490015AE1B /* Buttons.swift */; };
+		F37D307F272F57CD0015AE1B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307E272F57CD0015AE1B /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F37AEDC2272A4DAF00E382E6 /* Funciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Funciones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F37D3078272F12740015AE1B /* Estructuras.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Estructuras.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F37D3079272F18E10015AE1B /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F37D307A272F36000015AE1B /* TextMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMod.swift; sourceTree = "<group>"; };
+		F37D307C272F3B490015AE1B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		F37D307E272F57CD0015AE1B /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 		F35F5CC6272644C000967578 /* platzi */ = {
 			isa = PBXGroup;
 			children = (
-				F37AEDC1272A4D5000E382E6 /* Playground */,
 				F35F5CC7272644C000967578 /* platziApp.swift */,
+				F37AEDC1272A4D5000E382E6 /* Playground */,
 				F35F5CC9272644C000967578 /* ContentView.swift */,
 				F35F5CCB272644C200967578 /* Assets.xcassets */,
 				F35F5CCD272644C200967578 /* Preview Content */,
+				F37D307A272F36000015AE1B /* TextMod.swift */,
+				F37D307C272F3B490015AE1B /* Buttons.swift */,
+				F37D307E272F57CD0015AE1B /* Images.swift */,
 			);
 			path = platzi;
 			sourceTree = "<group>";
@@ -155,6 +164,9 @@
 			files = (
 				F35F5CCA272644C000967578 /* ContentView.swift in Sources */,
 				F35F5CC8272644C000967578 /* platziApp.swift in Sources */,
+				F37D307F272F57CD0015AE1B /* Images.swift in Sources */,
+				F37D307B272F36000015AE1B /* TextMod.swift in Sources */,
+				F37D307D272F3B490015AE1B /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
