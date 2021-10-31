@@ -20,6 +20,9 @@
 		F35F5CCB272644C200967578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35F5CCE272644C200967578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F35F5CD5272649C000967578 /* variablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = variablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F37AEDC2272A4DAF00E382E6 /* Funciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Funciones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F37D3078272F12740015AE1B /* Estructuras.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Estructuras.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F37D3079272F18E10015AE1B /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +55,11 @@
 		F35F5CC6272644C000967578 /* platzi */ = {
 			isa = PBXGroup;
 			children = (
+				F37AEDC1272A4D5000E382E6 /* Playground */,
 				F35F5CC7272644C000967578 /* platziApp.swift */,
 				F35F5CC9272644C000967578 /* ContentView.swift */,
 				F35F5CCB272644C200967578 /* Assets.xcassets */,
 				F35F5CCD272644C200967578 /* Preview Content */,
-				F35F5CD5272649C000967578 /* variablesConstantes.playground */,
 			);
 			path = platzi;
 			sourceTree = "<group>";
@@ -67,6 +70,17 @@
 				F35F5CCE272644C200967578 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F37AEDC1272A4D5000E382E6 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F35F5CD5272649C000967578 /* variablesConstantes.playground */,
+				F37AEDC2272A4DAF00E382E6 /* Funciones.playground */,
+				F37D3078272F12740015AE1B /* Estructuras.playground */,
+				F37D3079272F18E10015AE1B /* ComputedProperties.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
