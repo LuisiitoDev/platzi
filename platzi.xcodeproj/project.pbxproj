@@ -11,6 +11,10 @@
 		F35F5CCA272644C000967578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F5CC9272644C000967578 /* ContentView.swift */; };
 		F35F5CCC272644C200967578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F5CCB272644C200967578 /* Assets.xcassets */; };
 		F35F5CCF272644C200967578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F5CCE272644C200967578 /* Preview Assets.xcassets */; };
+		F36CE0952730CFDD000BFFF8 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CE0942730CFDD000BFFF8 /* TextFields.swift */; };
+		F36CE0972730D3C4000BFFF8 /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CE0962730D3C4000BFFF8 /* Dividers.swift */; };
+		F36CE0992730DCB8000BFFF8 /* HstackVstackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CE0982730DCB8000BFFF8 /* HstackVstackSpacer.swift */; };
+		F36CE09B2730E7BB000BFFF8 /* ZStackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CE09A2730E7BB000BFFF8 /* ZStackPadding.swift */; };
 		F37D307B272F36000015AE1B /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307A272F36000015AE1B /* TextMod.swift */; };
 		F37D307D272F3B490015AE1B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307C272F3B490015AE1B /* Buttons.swift */; };
 		F37D307F272F57CD0015AE1B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D307E272F57CD0015AE1B /* Images.swift */; };
@@ -23,6 +27,10 @@
 		F35F5CCB272644C200967578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35F5CCE272644C200967578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F35F5CD5272649C000967578 /* variablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = variablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F36CE0942730CFDD000BFFF8 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		F36CE0962730D3C4000BFFF8 /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
+		F36CE0982730DCB8000BFFF8 /* HstackVstackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstackSpacer.swift; sourceTree = "<group>"; };
+		F36CE09A2730E7BB000BFFF8 /* ZStackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackPadding.swift; sourceTree = "<group>"; };
 		F37AEDC2272A4DAF00E382E6 /* Funciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Funciones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F37D3078272F12740015AE1B /* Estructuras.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Estructuras.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F37D3079272F18E10015AE1B /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -69,6 +77,10 @@
 				F37D307A272F36000015AE1B /* TextMod.swift */,
 				F37D307C272F3B490015AE1B /* Buttons.swift */,
 				F37D307E272F57CD0015AE1B /* Images.swift */,
+				F36CE0942730CFDD000BFFF8 /* TextFields.swift */,
+				F36CE0962730D3C4000BFFF8 /* Dividers.swift */,
+				F36CE0982730DCB8000BFFF8 /* HstackVstackSpacer.swift */,
+				F36CE09A2730E7BB000BFFF8 /* ZStackPadding.swift */,
 			);
 			path = platzi;
 			sourceTree = "<group>";
@@ -162,11 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36CE09B2730E7BB000BFFF8 /* ZStackPadding.swift in Sources */,
 				F35F5CCA272644C000967578 /* ContentView.swift in Sources */,
+				F36CE0972730D3C4000BFFF8 /* Dividers.swift in Sources */,
 				F35F5CC8272644C000967578 /* platziApp.swift in Sources */,
+				F36CE0992730DCB8000BFFF8 /* HstackVstackSpacer.swift in Sources */,
 				F37D307F272F57CD0015AE1B /* Images.swift in Sources */,
 				F37D307B272F36000015AE1B /* TextMod.swift in Sources */,
 				F37D307D272F3B490015AE1B /* Buttons.swift in Sources */,
+				F36CE0952730CFDD000BFFF8 /* TextFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
